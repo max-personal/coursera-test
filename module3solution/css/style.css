@@ -1,0 +1,95 @@
+body {
+    font-size: 17px;
+    background: rgb(235, 235, 235);
+}
+
+#our-navbar {
+    background-color:rgb(228, 240, 200);
+    height: 80px;
+}
+
+#our-navbar-header {
+    vertical-align: center;
+    height: 100%;
+}
+
+#our-navbar .navbar-brand {
+    font-size: 40px;
+    color: darkblue;
+    margin: 22px 20px auto 1px;
+    height: 100%;
+    float: left;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+#main-content > section {
+    background-color: rgb(226, 221, 214);
+    height: auto;
+    margin: 50px auto 50px auto;
+    padding: 15px;
+}
+
+#menu-header {
+    /* text-align: center; */
+    font-family: 'Titillium Web', sans-serif;
+    font-style: italic;
+    margin-bottom: 15px;
+    font-weight: 200;
+}
+
+#chicken-header {
+    /* text-align: center; */
+    font-family: 'Titillium Web', sans-serif;
+    font-style: italic;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+
+.eat-chicken {
+    padding: 30px;
+    margin-top: 30px;
+}
+
+#dropdown-menu {
+    width: 100%;
+    border: 0px;
+}
+
+.dropdown-menu-item {
+    border: 1px solid black;
+    height: 25px;
+    background-color:rgb(203, 240, 118);
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    width: 100%;
+    height: 35px;
+}
+
+#nav-list {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+#nav-list span {
+text-align: center;
+}
+
+#nav-list a:hover {
+background: #E7E7E7;
+}
+
+#nav-list a span {
+font-size: 1.8em;
+}
+
+
+@media (max-width: 767px) {
+    #menu-header {
+        margin-top: 130px;
+    }
+
+    #our-navbar .navbar-brand {
+        font-size: 7vw;
+    }
+}
